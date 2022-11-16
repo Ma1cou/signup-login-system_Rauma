@@ -10,7 +10,7 @@ $dbname = "kirjautuminen_esimerkki_1";
 
 if(!$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)) {
    
-    die("failed to connect!");
+    die("Ei voitu yhdistää mySQL!");
 }
 
 ?>
